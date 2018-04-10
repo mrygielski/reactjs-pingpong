@@ -4,6 +4,8 @@ import Results from './Results';
 import Paddle from './Paddle';
 import Ball from './Ball';
 
+import '../styles/App.css';
+
 class AppComponent extends React.Component {
 
     constructor(props) {

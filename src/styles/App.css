@@ -1,4 +1,22 @@
 body {
   color: #000;
-  background: #fff;
+}
+
+.scores {
+  display: table;
+  position: absolute;
+  width: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+}
+
+.scores div {
+  display: table-cell;
+  text-align: center;
+  font-size: 30px;
+  color: #aaa;
+  text-shadow: 0 4px 5px rgba(150, 150, 150, 0.5);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
