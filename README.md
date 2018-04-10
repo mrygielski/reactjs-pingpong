@@ -1,5 +1,7 @@
 # Simple Ping&Pong game in ReactJS
 
+Live demo http://reactjs-pingpong.demo.michalrygielski.pl/
+
 Usage:
 Basic install:
 ```
