@@ -4,9 +4,9 @@ class Menu extends React.Component {
     render() {
         return (
             <div className="menu" id="menu">
-                <div className="inner">
-                    <button onClick={this.props.gameInit}>Start Game</button>
-                </div>
+                <div>PING - PONG GAME</div>
+                <div>press</div>
+                <div className="btn" onClick={this.props.gameInit}>Start Game</div>
             </div>
         );
     }

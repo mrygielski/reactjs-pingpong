@@ -33,6 +33,8 @@ class AppComponent extends React.Component {
     start() {
 
         document.getElementById('menu').style.display = 'none';
+        document.getElementById('scores').style.display = 'table';
+        document.querySelector("*").style.cursor = 'none';
 
         this.player.y = (this.screenHeight / 2) - (this.player.height / 2);
         this.player.x = 20;
